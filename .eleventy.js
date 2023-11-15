@@ -68,10 +68,7 @@ module.exports = function (eleventyConfig) {
 
     // Returns CSS class for home page link
     eleventyConfig.addNunjucksFilter("isHomeLink", function (url, pattern) {
-        return (pattern === "/" && url === "/") ||
-            (pattern === "/" && url.startsWith("/posts"))
-            ? "active"
-            : "";
+        return (pattern === "/" && url === "/") ? "active" : "";
     });
 
     // Returns CSS class for active page link
