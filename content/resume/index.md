@@ -4,22 +4,19 @@ layout: page.njk
 title: Resume
 ---
 
-Konner Horton
-=============
+# Konner Horton
 
-Education
----------
+## Education
 
 **MS, Civil Engineering** : 2017 - 2019; Missouri University of Science and Technology  
 **BS, Geological Engineering** : 2009 - 2014; University of Mississippi
 
-Experience
-----------
+## Experience
 
 **Scarborough Subway Extension :** December 2023 - November 2023  
-_Project Engineer with Aldea Services, Inc. (offsite), Toronto, Ontario, CA_  
+_Project Engineer with Aldea Services, Inc. (offsite), Toronto, Ontario, CA_
 
-- Migrated and reformated geotechnical testing data from pdf and unstructured excel sheets into a geotechnical database (Opengroudn)
+- Migrated and reformated geotechnical testing data from pdf and unstructured excel sheets into a geotechnical database (Openground)
 - Managed QC for over 35,000 geotechnical data records
 - Performed statistical analysis to determine geotechnical parameters
 - Performed design calculations for support of excavation and dewatering design
@@ -119,8 +116,7 @@ _Staff Engineer with Stantec Consuling, Inc. (onsite), Chattanoga, Tennessee, US
 - Conducted inspections for soil, concrete, masonry, and structural steel
 - Performed verification tests of ground improvement, including aggregate piers and cement treated road base
 
-Other Experience
---------------------
+## Other Experience
 
 Programming Languages
 : Python, SQL
