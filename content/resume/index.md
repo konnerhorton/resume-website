@@ -1,6 +1,6 @@
 ---
 eleventyExcludeFromCollections: true
-layout: page.njk
+layout: resume.njk
 title: Resume
 ---
 
@@ -13,34 +13,49 @@ title: Resume
 
 ## Experience
 
-**Scarborough Subway Extension :** December 2023 - November 2023  
-_Project Engineer with Aldea Services, Inc. (offsite), Toronto, Ontario, CA_
+### Scarborough Subway Extension
 
-- Migrated and reformated geotechnical testing data from pdf and unstructured excel sheets into a geotechnical database (Openground)
+_Project Engineer with Aldea Services, Inc. (offsite), Toronto, Ontario, CA_  
+
+December 2023 - November 2023  
+
+- Migrated and reformated geotechnical testing data from pdf and unstructured excel sheets into a geotechnical database (Opengroudn)
 - Managed QC for over 35,000 geotechnical data records
 - Performed statistical analysis to determine geotechnical parameters
 - Performed design calculations for support of excavation and dewatering design
 
-**VTA CP2 :** November 2023 - November 2023  
+### VTA CP2
+
 _Project Engineer with Aldea Services, Inc. (offsite), San Jose, California, USA_  
+
+November 2023 - November 2023  
 
 - Constructed a schedule as an independent check
 
-**Potomac River Tunnel :** July 2022 - February 2023  
+### Potomac River Tunnel
+
 _Project Engineer with Aldea Services, Inc. (offsite), Washington, District of Columbia, USA_  
+
+July 2022 - February 2023  
 
 - Built the permit schedule for over xx required permits
 - Managed sub-designers in design of support of excavation, SEM excavations, and maintenance of traffic
 
-**Eagle Mountain Pipeline :** April 2022 - July 2022  
+### Eagle Mountain Pipeline
+
 _Project Engineer with Aldea Services, Inc. (offsite), Squamish, British Columbia, CA_  
+
+April 2022 - July 2022  
 
 - Performed slope stability analyses for cut slopes at the tunnel portal
 - Design initial ground support for the starter tunnel (in jointed rock)
 - Developed premiliary grouting layouts (from the TBM) to solidfy the rock / soil interface at the intersection of two tunnels
 
-**Various :** December 2020 - September 2020  
+### Various
+
 _Project Manager with Jensen's Pressure Grouting (onsite), Atlanta, Georgia, USA_  
+
+December 2020 - September 2020  
 
 Managed grouting and infrastructure repair crews for various small projects. Project value ranged from $10,000 to $370,000 with durations typically between 2 days and 6 weeks. Projects included various applications of cement & polyurethane grouting, slope stability, and structure concrete repair.  
 
@@ -49,8 +64,11 @@ Managed grouting and infrastructure repair crews for various small projects. Pro
 - Significantly improved marketing, sales funnel, and project communication systems to improve resource utilization and project outcomes
 - Simultaneously managed office and field operations with crews of up to 12 individuals
 
-**River Intake Pump Station - Connector Tunnel :** February 2020 - December 2020  
+### River Intake Pump Station - Connector Tunnel
+
 _Project Engineer with Guy F. Atkinson Construction (onsite), Atlanta, Georgia, USA_  
+
+February 2020 - December 2020  
 
 A tunnel and shaft was constructed to install 360 linear feet of 60-inch ductile iron pipe between an existing tunnel and the nearby water treatment plant.  
 
@@ -61,8 +79,11 @@ A tunnel and shaft was constructed to install 360 linear feet of 60-inch ductile
 - Assisted in developing thermal control plan for mass concrete placement
 - Developed grout mix design and pipe backfill plan for grouting the pipe in place
 
-**Plane Train West Extension Tunnel & Shaft :** February 2020 - December 2020  
+### Plane Train West Extension Tunnel & Shaft
+
 _Project Engineer with Guy F. Atkinson Construction (onsite), Atlanta, Georgia, USA_  
+
+February 2020 - December 2020  
 
 As part of the ATLNext initiative at the Atlanta Airport, a tunnel is being constructed for the expansion of the existing train system. The tunnel consists of a secant-pile-wall shaft and 900 feet of SEM tunnel, with blasting adjacent to sensitive areas and significant coordination between multiple stakeholders.  
 
@@ -73,8 +94,11 @@ As part of the ATLNext initiative at the Atlanta Airport, a tunnel is being cons
 - Developed shotcrete mix designs and training programs to be used for installation of ground support
 - Assisted in developing drill & blast plans in close proximity to sensitive structures for shaft and tunnel
 
-**Water Supply Program :** January 2019 - April 2020  
+### Water Supply Program
+
 _Project Engineer with Guy F. Atkinson Construction (onsite), Atlanta, Georgia, USA_  
+
+January 2019 - April 2020  
 
 The Water Supply Program project consisted of a 4.5-mile long TBM tunnel with 5 conventionally mined shafts, 5 blind-bored shafts, 3 raise-bored shafts. The main tunnel was in hard rock with a cast-in-place lining. A tunnel plug was constructed near the outlet.  
 
@@ -84,8 +108,11 @@ The Water Supply Program project consisted of a 4.5-mile long TBM tunnel with 5 
 - Assisted in designing steel supports for a flow control gate and a pipe support system for a 90-ton load
 - Compiled as-builts and other close-out documents
 
-**High Museum Of Art :** July 2018 - December 2018  
+### High Museum Of Art
+
 _Project Engineer with Skanska Building USA (onsite), Atlanta, Georgia, USA_  
+
+July 2018 - December 2018  
 
 The Special Projects Group provided renovation services to the Museum for more than 150,000 sf of gallery space. This project required working on extremely tight deadlines in a fully operational museum.  
 
@@ -94,8 +121,11 @@ The Special Projects Group provided renovation services to the Museum for more t
 - Managed the flow of technical information between Owner, Engineer/Architect, and Contractors
 - Supervised subcontractor work, manage site logistics, and develop a collaborative culture
 
-**Water Supply Program :** January 2016 - July 2018  
+### Water Supply Program
+
 _Staff Geologist with Stantec Consuling, Inc. (onsite), Atlanta, Georgia, USA_  
+
+January 2016 - July 2018  
 
 A water supply tunnel and storage basin (repurposing an old aggregate quarry) including multiple pump stations and shafts. Project elements included 4.5 miles of 12-foot diameter hard rock TBM tunnel, 2000 feet of drill and blast tunnels and adits, raise-bored and blind-bored shafts, and pump station construction.
 
@@ -106,8 +136,11 @@ A water supply tunnel and storage basin (repurposing an old aggregate quarry) in
 - Design, supervise, and analyze performance of pre-excavation grouting
 - Conduct field inspections of underground structures and geologic conditions
 
-**Volkswagen Plant Expansion :** January 2015 - January 2016  
+### Volkswagen Plant Expansion
+
 _Staff Engineer with Stantec Consuling, Inc. (onsite), Chattanoga, Tennessee, USA_  
+
+January 2015 - January 2016  
 
 500,000 sq ft expansion of an automobile manufacturing plant. The project included vibrated aggregate piers with acceptance testing, >1000 cubic yard slab-on-grade concrete placements, precast concrete column errection, and roller-compacted-concrete road construction.  
 
@@ -122,4 +155,4 @@ Programming Languages
 : Python, SQL
 
 Software Packages
-: Premivera P6, Bentley Openground, RocScience UnWedge, RocScience RS2
+: Premivera P6, Microsoft Project, Bentley Openground, RocScience UnWedge, RocScience RS2, QGIS
