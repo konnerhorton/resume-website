@@ -12,7 +12,7 @@ module.exports = {
     // Author name, shown in left sidebar, and used in JSON-LD
     author: "Konner Horton",
     // Site description, shown below site image (optional)
-    description: "A resume",
+    description: "konnerhorton@gmail.com",
     // OpenGraph default image, in case you don't have an `image`
     // set in your Markdown frontmatter; relevant for social
     // sharing.

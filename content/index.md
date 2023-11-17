@@ -18,3 +18,13 @@ When I am not at work, I am likely reading (usually either non-fiction, or scien
   - [Bouwer-Rice hydraulic conductivity calculator](https://bouwerrice.streamlit.app/)
   - [Soil shear strength calculator (from triax tests)](https://soilshearstrength.streamlit.app/)
 - My [github](<https://github.com/konnerhorton>) profile
+
+
+
+
+
+
+
+
+# And a special thanks to
+[muenzpraeger](https://github.com/muenzpraeger/eleventy-chirpy-blog-template) for this [eleventy](https://www.11ty.dev/) template.
