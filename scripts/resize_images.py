@@ -4,8 +4,8 @@ from PIL import Image
 original_file = "assets\\images\\image_original.JPG"
 conversions = {
     "sidebar_profile.jpg": (
-        144,
-        144,
+        192,
+        192,
     ),
     "android-chrome-192x192.png": (
         192,

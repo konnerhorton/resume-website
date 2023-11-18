@@ -6,7 +6,7 @@ module.exports = {
     // Site URL to generate absolute URLs. Used across the board.
     url: process.env.URL || "http://localhost:8080",
     // Profile image for left sidebar
-    image: "/assets/images/sidebar_profile.jpg",
+    image: "/assets/images/image_original.jpg",
     // Image alt text for left sidebar
     imageAlt: "Konner Horton",
     // Author name, shown in left sidebar, and used in JSON-LD
