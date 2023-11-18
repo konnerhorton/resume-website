@@ -1,6 +1,8 @@
 import os
 from PIL import Image
 
+"""Resizes the original image and saves to appropriate files"""
+
 original_file = "assets\\images\\image_original.JPG"
 conversions = {
     "sidebar_profile.jpg": (
