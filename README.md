@@ -4,7 +4,7 @@ I have never enjoyed using social media but recently thought (for professional r
 
 The site is currenlty deployed via [Digital Ocean App Platform](https://www.digitalocean.com/products/app-platform).
 
-Check it out here: [konnerhorton.com](https://www.konnerhorton.com)
+Check it out here: [konnerhorton.com](https://konnerhorton.com/)
 
 ## Acknowledgements
 
