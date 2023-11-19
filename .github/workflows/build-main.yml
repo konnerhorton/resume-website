@@ -18,28 +18,28 @@ jobs:
 
             # Cache node_modules to speed up the process
             - name: "Restore node_modules cache"
-              id: cache-yarn
+              id: cache-npm
               uses: actions/cache@v1
               with:
                   path: node_modules
-                  key: yarn-${{ hashFiles('**/yarn.lock') }}
+                  key: npm-${{ hashFiles('**/package-lock.json') }}
                   restore-keys: |
-                      yarn-${{ env.cache-name }}-
-                      yarn-
+                      npm-${{ env.cache-name }}-
+                      npm-
 
             # Install npm dependencies for Prettier and Jest
             - name: "Install npm dependencies"
-              if: steps.cache-yarn.outputs.cache-hit != 'true'
-              run: yarn install
+              if: steps.cache-npm.outputs.cache-hit != 'true'
+              run: npm install
 
             # Prettier formatting
             - name: "Prettier"
-              run: yarn prettier:verify
+              run: npm run prettier:verify
 
             # Markdown and JavaScript linting
             - name: "Linting"
-              run: yarn lint
+              run: npm run lint
 
             # Build
             - name: "Build"
-              run: URL=https://test.build.url yarn build
+              run: URL=https://test.build.url npm run build

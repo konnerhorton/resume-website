@@ -4,7 +4,7 @@ module.exports = {
     // Website title, shown in left sidebar and in page title
     title: "Konner Horton",
     // Site URL to generate absolute URLs. Used across the board.
-    url: process.env.URL || "http://localhost:8080",
+    url: process.env.URL || "http://konnerhorton.com",
     // Profile image for left sidebar
     image: "/assets/images/image_original.jpg",
     // Image alt text for left sidebar

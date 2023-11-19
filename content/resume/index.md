@@ -17,7 +17,7 @@ title: Resume
 
 _Project Engineer with Aldea Services, Inc. (offsite), Toronto, Ontario, CA_  
 
-December 2023 - November 2023  
+December 2022 - Present  
 
 Eight kilometers of single bore transit tunnel with four stations, multiple egress buildings, and associated commerical buildings. We were desginers on the progressive design build team under contract to deliver the stations and egress buildings. We were focused on the geotechnical conditions and support of excavation design.
 
@@ -30,7 +30,7 @@ Eight kilometers of single bore transit tunnel with four stations, multiple egre
 
 _Project Engineer with Aldea Services, Inc. (offsite), San Jose, California, USA_  
 
-November 2023 - November 2023  
+November 2023 - Present 
 
 Six miles of transit rail including five miles of single-bore tunnel and three underground stations. We were responsible for developing the schedule and estimate as an independent check on the progressive design build team.
 
