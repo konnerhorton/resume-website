@@ -51,7 +51,7 @@
         "markdownlint": "^0.31.1",
         "markdownlint-cli2": "^0.10.0",
         "prettier": "^2.3.1",
-        "rollup": "^2.0.0",
+        "rollup": "^4.5.0",
         "@rollup/plugin-terser": "^0.4.4"
     },
     "volta": {
