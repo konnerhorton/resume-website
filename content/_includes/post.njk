@@ -32,7 +32,7 @@ layout: base.njk
         	{{ date | readableDate }}
 		</div>
 		<div class="flex readingtime" data-words="{{ content | striptags | wordcount | formatWords }} words">
-        	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 472.615 472.615" class="h-5 w-8 mr-2 ml-12">
+        	<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 472.615 472.615" class="h-5 w-8 mr-2 ml-12">
   	    		<path d="M472.615,205.774h-25.344c-12.797-37.99-48.686-65.462-90.935-65.462c-43.224,0-79.837,28.73-91.823,68.087
         					c-7.582-5.011-17.305-8.115-28.211-8.115c-10.903,0-20.624,3.103-28.207,8.114c-11.989-39.357-48.608-68.085-91.831-68.085
 			    			c-42.249,0-78.135,27.472-90.93,65.462H0v19.692h20.925c-0.403,3.565-0.656,7.175-0.656,10.846
@@ -43,7 +43,7 @@ layout: base.njk
         					C192.572,278.38,158.341,312.611,116.264,312.611z M356.337,312.611c-42.067,0-76.298-34.231-76.298-76.298
         					c0-42.077,34.231-76.308,76.298-76.308c42.077,0,76.308,34.231,76.308,76.308C432.644,278.38,398.413,312.611,356.337,312.611z" />
         	</svg>
-        	{{ content | striptags | wordcount | readingTime }}
+        	<!-- {{ content | striptags | wordcount | readingTime }} -->
 			<span></span>
 		</div>
 	</div>

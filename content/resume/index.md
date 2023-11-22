@@ -30,7 +30,7 @@ Eight kilometers of single bore transit tunnel with four stations, multiple egre
 
 _Project Engineer with Aldea Services, Inc. (offsite), San Jose, California, USA_  
 
-November 2023 - Present 
+November 2023 - Present
 
 Six miles of transit rail including five miles of single-bore tunnel and three underground stations. We were responsible for developing the schedule and estimate as an independent check on the progressive design build team.
 
@@ -78,7 +78,7 @@ _Project Engineer with Guy F. Atkinson Construction (onsite), Atlanta, Georgia, 
 
 February 2020 - December 2020  
 
-Nine hundred feet of SEM tunnel to provide a back-of-house switch to the ATL Plane Train system. The progressive design build project included a secant pile wall shaft, blasting adjacent to sensitive structures, and extensive deformation monitoring system. We were the tunnel contractor responsible for delivering the tunnel and associated structures. 
+Nine hundred feet of SEM tunnel to provide a back-of-house switch to the ATL Plane Train system. The progressive design build project included a secant pile wall shaft, blasting adjacent to sensitive structures, and extensive deformation monitoring system. We were the tunnel contractor responsible for delivering the tunnel and associated structures.
 
 - Managed internal engineering team to procure materials, deliver pre-construction workplans, and develope crew schedules.
 - Managed development and installation of groundwater monitoring and surface settlement instrumentation
@@ -104,9 +104,9 @@ _Project Engineer with Guy F. Atkinson Construction (onsite), Atlanta, Georgia, 
 
 January 2019 - April 2020  
 
-Four and a half miles of rock TBM tunnel with 2,000 feet of drill-&-blast tunnels and two pump stations. The project included raised-bore, blind-bored, and conventionally mined shafts. We were the tunnel contractor delivering the underground portions of the work. 
+Four and a half miles of rock TBM tunnel with 2,000 feet of drill-&-blast tunnels and two pump stations. The project included raised-bore, blind-bored, and conventionally mined shafts. We were the tunnel contractor delivering the underground portions of the work.
 
-- Managed the field engineering for the cast-in-place lining operations. 
+- Managed the field engineering for the cast-in-place lining operations.
 - Coordinated work concurrent on on four projects sites.
 - Developed and executed workplans for various operations including thermal controled concrete, rock-fall drape systems, and large diameter vertical pipe installation.
 
@@ -145,11 +145,3 @@ January 2015 - January 2016
 
 - Performed verification tests of ground improvement, including aggregate piers and cement treated road base.
 - Conducted subsurface geotechnical and investigations prepared geotechnical reports & service proposals.
-
-## Other Experience
-
-Programming Languages
-: Python, SQL
-
-Software Packages
-: Premivera P6, Microsoft Project, Bentley Openground, RocScience UnWedge, RocScience RS2, QGIS

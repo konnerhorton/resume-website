@@ -7,6 +7,7 @@ const { readFileSync } = require("fs");
 const siteconfig = require("./content/_data/siteconfig.js");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
     // Set Markdown library
@@ -19,6 +20,8 @@ module.exports = function (eleventyConfig) {
             typographer: true
         }).use(markdownItAnchor)
     );
+    // Plugin for syntaxHighlight
+    eleventyConfig.addPlugin(syntaxHighlight);
 
     // Define passthrough for assets
     eleventyConfig.addPassthroughCopy("assets");
