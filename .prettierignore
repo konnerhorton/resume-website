@@ -9,3 +9,4 @@ assets/css/*-build.css
 assets/js/*.js
 content/_includes/plotly_html
 package.json
+.markdownlint.json
