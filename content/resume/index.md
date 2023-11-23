@@ -4,8 +4,6 @@ layout: resume.njk
 title: Resume
 ---
 
-# Konner Horton
-
 ## Education
 
 **MS, Civil Engineering** : 2017 - 2019; Missouri University of Science and Technology  
@@ -98,7 +96,7 @@ Three hundred sixty feet of liner plate tunnel to install a 60-inch ductile iron
 -   Assisted in developing thermal control plan for mass concrete placement.
 -   Developed grout mix design and pipe backfill plan for grouting the pipe in place.
 
-### Raw Water Supply Program Tunnel
+### Raw Water Supply Program Tunnel (Contractor)
 
 _Project Engineer with Guy F. Atkinson Construction (onsite), Atlanta, Georgia, USA_
 
@@ -122,7 +120,7 @@ July 2018 - December 2018
 -   Managed the flow of technical information between Owner, Engineer/Architect, and Contractors.
 -   Supervised subcontractor work, manage site logistics, and develop a collaborative culture.
 
-### Raw Water Supply Program Tunnel
+### Raw Water Supply Program Tunnel (Engineer)
 
 _Staff Geologist with Stantec Consuling, Inc. (onsite), Atlanta, Georgia, USA_
 

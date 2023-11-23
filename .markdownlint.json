@@ -1,5 +1,9 @@
 {
     "line-length": false,
     "list-marker-space": false,
-    "no-inline-html": false
+    "no-inline-html": false,
+    "MD036": false,
+    "MD007": {
+        "indent": 4
+    }
 }
