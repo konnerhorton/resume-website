@@ -13,5 +13,5 @@ module.exports = {
         node: true,
         es6: true
     },
-    ignorePatterns: ["!/.*.js", "_site", "/assets/js/", "node_modules"]
+    ignorePatterns: ["_site", "node_modules"]
 };
