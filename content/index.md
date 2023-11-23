@@ -12,11 +12,12 @@ When I am not at work, I am likely reading (usually either non-fiction, or scien
 
 # Other stuff I'm working on
 
-- [tunnelwiki](https://tunnelwiki.org/)
-  - An attempt to make a general reference for others in the industry
-- Streamlit apps:
-  - [Bouwer-Rice hydraulic conductivity calculator](https://bouwerrice.streamlit.app/)
-  - [Soil shear strength calculator (from triax tests)](https://soilshearstrength.streamlit.app/)
+-   [tunnelwiki](https://tunnelwiki.org/)
+    -   An attempt to make a general reference for others in the industry
+-   Streamlit apps:
+    -   [Bouwer-Rice hydraulic conductivity calculator](https://bouwerrice.streamlit.app/)
+    -   [Soil shear strength calculator (from triax tests)](https://soilshearstrength.streamlit.app/)
 
 # And a special thanks to
+
 [muenzpraeger](https://github.com/muenzpraeger/eleventy-chirpy-blog-template) for this [eleventy](https://www.11ty.dev/) template.
