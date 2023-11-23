@@ -12,6 +12,5 @@ module.exports = {
         browser: true,
         node: true,
         es6: true
-    },
-    ignorePatterns: ["_site", "node_modules"]
+    }
 };
