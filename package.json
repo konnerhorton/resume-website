@@ -19,7 +19,10 @@
         "postinstall:": "husky install",
         "precommit": "npm run prettier && npm run lint",
         "prettier": "prettier --write \"**/*.{css,html,js,json,md,yaml,yml}\"",
-        "prettier:verify": "prettier --list-different \"**/*.{css,html,js,json,md,yaml,yml}\""
+        "prettier:verify": "prettier --list-different \"**/*.{css,html,js,json,md,yaml,yml}\"",
+        "build:sass:prod": "sass src/static/scss:public/static/css --style compressed",
+        "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
+        "build:prod": "npm run build:eleventy:prod & npm run build:sass:prod"
     },
     "dependencies": {
         "@11ty/eleventy": "^2.0.1",
