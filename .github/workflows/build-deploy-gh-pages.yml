@@ -1,5 +1,5 @@
 # Unique name for this workflow
-name: Blog build (main)
+name: "Build and Deploy"
 
 # Definition when the workflow should run
 on:
@@ -48,4 +48,4 @@ jobs:
             - name: Deploy to gh-pages
               uses: peaceiris/actions-gh-pages@v3
               with:
-                deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+                  deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
