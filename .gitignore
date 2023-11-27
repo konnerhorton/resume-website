@@ -42,3 +42,6 @@ assets/js/min.*
 
 # Local Netlify folder
 .netlify
+
+# Data files used in notebooks
+content\posts\notebooks\data
