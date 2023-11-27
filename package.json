@@ -19,7 +19,7 @@
         "postinstall:": "husky install",
         "precommit": "npm run prettier && npm run lint",
         "prettier": "prettier --write \"**/*.{css,html,js,json,md,yaml,yml}\"",
-        "prettier:verify": "prettier --list-different \"**/*.{css,html,js,json,md,yaml,yml}\"",
+        "prettier:verify": "prettier --list-different \"**/*.{css,html,js,json,md,yaml,yml}\""
     },
     "dependencies": {
         "@11ty/eleventy": "^2.0.1",
