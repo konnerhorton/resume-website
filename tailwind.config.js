@@ -33,6 +33,9 @@ module.exports = {
     },
     theme: {
         extend: {
+            fontFamily: {
+                sans: ['Arvo', 'sans-serif'],
+            },
             backgroundColor: (theme) => ({
                 ...theme("colors"),
                 "dark-nav": "#242424",
