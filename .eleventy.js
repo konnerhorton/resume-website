@@ -4,6 +4,8 @@ const pluginToc = require("eleventy-plugin-toc");
 const { MD5 } = require("crypto-js");
 const { URL } = require("url");
 const { readFileSync } = require("fs");
+const fs = require('fs');
+const path = require('path');
 const siteconfig = require("./content/_data/siteconfig.js");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
@@ -22,6 +24,22 @@ module.exports = function (eleventyConfig) {
     );
     // Plugin for syntaxHighlight
     eleventyConfig.addPlugin(syntaxHighlight);
+
+    // Define an asynchronous Nunjucks shortcode for Plotly charts
+    eleventyConfig.addAsyncShortcode("plotlyChart", async function (chartId, filePath) {
+        const chartFilePath = path.join(__dirname, 'content/posts/plotly', filePath);
+        try {
+            const chartJson = await fs.promises.readFile(chartFilePath, 'utf-8');
+            return `<div id="${chartId}"></div>
+                <script>
+                const chartData = JSON.parse(\`${chartJson}\`);
+                Plotly.newPlot("${chartId}", chartData.data, chartData.layout);
+                </script>`;
+        } catch (error) {
+            console.error('Error reading chart JSON file:', error);
+            return `<p>Error loading chart.</p>`;
+        }
+    });
 
     // Define passthrough for assets
     eleventyConfig.addPassthroughCopy("assets");
