@@ -34,11 +34,13 @@ import pandas as pd
 import duckdb
 
 # Import `test_data` from `.csv` to a dataframe
-test_data = pd.read_csv(test_data.csv)
+test_data = pd.read_csv("test_data.csv")
 
 # Import `geology` from `.csv` to a dataframe
-geology = pd.read_csv(geology.csv)
+geology = pd.read_csv("geology.csv")
 ```
+
+<br/>
 
 `test_data` looks like this:
 
@@ -48,6 +50,8 @@ geology = pd.read_csv(geology.csv)
 |21.34|BH-001|2.35|
 |27.43|BH-001|2.13|
 |15.24|BH-002|2.22|
+
+<br/>
 
 `geology` looks like this:
 
