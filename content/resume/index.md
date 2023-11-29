@@ -11,7 +11,7 @@ title: Resume
 
 ## Licenses
 
-**Licensed Professional Engineer** in Georgia, license number PE051347
+**Licensed Professional Engineer** in Georgia, license number PE051347  
 **Licensed General Contractor** in Georgia, license number GCLT-QA000699
 
 ## Experience
