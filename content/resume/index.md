@@ -9,6 +9,11 @@ title: Resume
 **MS, Civil Engineering** : 2017 - 2019; Missouri University of Science and Technology  
 **BS, Geological Engineering** : 2009 - 2014; University of Mississippi
 
+## Licenses
+
+**Licensed Professional Engineer** in Georgia, license number PE051347  
+**Licensed General Contractor** in Georgia, license number GCLT-QA000699
+
 ## Experience
 
 ### Scarborough Subway Extension
