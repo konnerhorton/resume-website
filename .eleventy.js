@@ -30,11 +30,12 @@ module.exports = function (eleventyConfig) {
         const chartFilePath = path.join(__dirname, 'content/posts/plotly', filePath);
         try {
             const chartJson = await fs.promises.readFile(chartFilePath, 'utf-8');
-            return `<div id="${chartId}"></div>
-                <script>
-                const chartData = JSON.parse(\`${chartJson}\`);
-                Plotly.newPlot("${chartId}", chartData.data, chartData.layout);
-                </script>`;
+            return `<div id="${chartId}" class="plotly-chart-container" style="all: initial;">
+            <script>
+            const chartData = JSON.parse(\`${chartJson}\`);
+            Plotly.newPlot("${chartId}", chartData.data, chartData.layout);
+            </script>
+        </div>`;
         } catch (error) {
             console.error('Error reading chart JSON file:', error);
             return `<p>Error loading chart.</p>`;
