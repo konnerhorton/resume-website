@@ -9,7 +9,7 @@ In geotechnical engineering we commonly have to determine the load the ground ex
 
 Two of the more common equations used to relate the OCR with $K_0$ and $\phi$ are:
 
-### Wroth (1975) equation
+### Wroth (1975) Equation
 
 $$K_{0, oc}=OCR * (1-sin\phi^{\prime})-\frac{\nu * (OCR - 1)}{1-\nu}$$
 $v$ is the poisson's ratio for the soil
@@ -37,8 +37,81 @@ $zaxis => K_{0, oc}$
 And I used the python library `plotly` to make contour plots. Here is what I did:
 
 ```python
-# Import libraries
+# Import third party libraries
+import numpy as np
+import plotly.graph_objects as go
+import plotly.io as pio
 
+from utilities.plotting_template import local_theme
+
+pio.templates.default = local_theme
+
+
+# Write functions to represent equations
+def get_k0nc_jacky(phi: float) -> float:
+    return 1 - np.sin(np.deg2rad(phi))
+
+
+def get_k0oc_wroth(phi: float, OCR: float, v: float) -> float:
+    return OCR * (get_k0nc_jacky(phi)) - (v * (OCR - 1)) / (1 - v)
+
+
+def get_k0oc_mayne(phi: float, OCR: float) -> float:
+    return get_k0nc_jacky(phi) * OCR ** (np.sin(np.deg2rad(phi)))
+
+
+# Define range of values for phi and OCR
+phi = np.linspace(0, 45)  # Creates a array of 100 values from 0 to 45
+OCR = np.linspace(0, 5.5)  # Creates a array of 100 values from 0 to 5.5
+
+# Define poisson's ratio to be used in `get_k0oc_wroth()`
+v = 0.25
+
+# Vectorize equations so that they can be used to create a numpy 2D array
+vec_get_k0oc_wroth = np.vectorize(pyfunc=get_k0oc_wroth)
+vec_get_k0oc_mayne = np.vectorize(pyfunc=get_k0oc_mayne)
+
+# Create 2D arrays from the equations
+k0oc_wroth = vec_get_k0oc_wroth(phi=phi, OCR=OCR, v=v)
+k0oc_mayne = vec_get_k0oc_mayne(phi=phi, OCR=OCR)
+
+
+# Plot contours for both methods
+def plot_countour(OCR: np.ndarray, phi: np.ndarray, k0oc: np.ndarray) -> np.ndarray:
+    fig = go.Figure(
+    go.Contour(
+        z=k0oc,
+        x=OCR,
+        y=phi,
+        contours=dict(start=0, end=1, size=0.02, showlabels=True),
+        colorbar=dict(title="K<sub>0,oc</sub>"),
+    )
+).update_layout(
+    height=700,
+    width=800,
+    xaxis=dict(title="OCR, unitless"),
+    yaxis=dict(title="Effective Friction Angle, deg"),
+    margin=dict(t=10, b=10, l=10, r=10),
+)
+    return fig
+
+fig_mayne = plot_countour(OCR, phi, k0oc_mayne)
+fig_wroth= plot_countour(OCR, phi, k0oc_wroth)
 ```
 
-{% plotlyChart "relating-k-and-phi-mayne_plotly", "relating-k-and-phi-mayne.json" %}
+
+```python
+fig_mayne.show()
+```
+<br>
+
+{% plotlyChart "relating-k-and-phi-mayne-plotly", "relating-k-and-phi-mayne.json" %}
+<br>
+
+
+```python
+fig_wroth.show()
+```
+
+<br>
+{% plotlyChart "relating-k-and-phi-wroth-plotly", "relating-k-and-phi-wroth.json" %}
