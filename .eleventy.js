@@ -43,8 +43,14 @@ module.exports = function (eleventyConfig) {
         }
     });
 
-    // Add functinoality for MathJax
-    eleventyConfig.addPlugin(mathjaxPlugin);
+    // Add functionality for MathJax
+    eleventyConfig.addPlugin(mathjaxPlugin, {
+        output: "chtml",
+        chtml: {
+          fontURL:
+            "https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2",
+        },
+      });
     
     // Define passthrough for assets
     eleventyConfig.addPassthroughCopy("assets");

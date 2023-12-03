@@ -17,7 +17,7 @@ For each sample size (I used 1 through 30), I drew 100 samples to calculate the 
 
 What is the point of this? In geotechincal engineering (or anywhere else small sample size are common), it is prudent to use rigorous statistical tools to "correct" for small samples. We would also benefit from using more probabilistic approaches to determine confidence intervals of a given statistical value.
 
-{% plotlyChart "small-numbers-plotly", "small-numbers.json" %}
+<img src="/assets/svg/small-numbers.svg">
 
 ```python
 import numpy as np
