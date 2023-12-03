@@ -34,7 +34,14 @@ $xaxis => OCR$
 $yaxis => \phi^\prime$  
 $zaxis => K_{0, oc}$  
 
-And I used the python library `plotly` to make contour plots. Here is what I did:
+And I used the python library `plotly` to make contour plots (Mayne on the left, Wroth on the right):
+
+<div class="svg-container">
+    <img src="/assets/svg/relating-k-and-phi-mayne.svg" alt="Mayne">
+    <img src="/assets/svg/relating-k-and-phi-wroth.svg" alt="Wroth">
+</div>
+
+### The script
 
 ```python
 # Import third party libraries
@@ -83,35 +90,18 @@ def plot_countour(OCR: np.ndarray, phi: np.ndarray, k0oc: np.ndarray) -> np.ndar
         z=k0oc,
         x=OCR,
         y=phi,
-        contours=dict(start=0, end=1, size=0.02, showlabels=True),
+        contours=dict(start=0, end=1, size=0.05, showlabels=True),
         colorbar=dict(title="K<sub>0,oc</sub>"),
     )
 ).update_layout(
-    height=700,
-    width=800,
-    xaxis=dict(title="OCR, unitless"),
-    yaxis=dict(title="Effective Friction Angle, deg"),
-    margin=dict(t=10, b=10, l=10, r=10),
+    height=350,
+    width=450,
+    xaxis=dict(title=dict(text="OCR, unitless", standoff=5), tickfont=dict(size=12),dtick=0.5),
+    yaxis=dict(title=dict(text="Effective Friction Angle, deg", standoff=5), dtick=5),
+    margin=dict(t=10, b=10, l=40, r=0)
 )
     return fig
 
 fig_mayne = plot_countour(OCR, phi, k0oc_mayne)
 fig_wroth= plot_countour(OCR, phi, k0oc_wroth)
 ```
-
-
-```python
-fig_mayne.show()
-```
-<br>
-
-{% plotlyChart "relating-k-and-phi-mayne-plotly", "relating-k-and-phi-mayne.json" %}
-<br>
-
-
-```python
-fig_wroth.show()
-```
-
-<br>
-{% plotlyChart "relating-k-and-phi-wroth-plotly", "relating-k-and-phi-wroth.json" %}
