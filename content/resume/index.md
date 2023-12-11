@@ -37,7 +37,7 @@ November 2023 - Present
 
 Six miles of transit rail including five miles of single-bore tunnel and three underground stations. We were responsible for developing the schedule and estimate as an independent check on the progressive design build team.
 
--   Constructed a schedule for all underground and transit station work.
+-   Developed a schedule for all tunnel excavation and permanent works, and some enabling and site work.
 
 ### Potomac River Tunnel
 
