@@ -1,5 +1,4 @@
 import { scrollToTop, slideLeftSidebar } from "./ui";
-import { searchContent, toggleSearch } from "./search";
 import { copyUrlToClipboard } from "./utils";
 
 window.scrollToTop = function () {
@@ -8,13 +7,6 @@ window.scrollToTop = function () {
 
 window.slideLeftSidebar = function () {
     slideLeftSidebar();
-};
-
-window.searchContent = function (e) {
-    window.clearTimeout(window.searchDelay);
-    window.searchDelay = setTimeout(() => {
-        searchContent(e);
-    }, 300);
 };
 
 window.toggleSearch = function () {

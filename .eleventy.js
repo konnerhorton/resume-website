@@ -10,6 +10,7 @@ const siteconfig = require("./content/_data/siteconfig.js");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const mathjaxPlugin = require("eleventy-plugin-mathjax");
 
 module.exports = function (eleventyConfig) {
     // Set Markdown library
@@ -42,6 +43,15 @@ module.exports = function (eleventyConfig) {
         }
     });
 
+    // Add functionality for MathJax
+    eleventyConfig.addPlugin(mathjaxPlugin, {
+        output: "chtml",
+        chtml: {
+          fontURL:
+            "https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2",
+        },
+      });
+    
     // Define passthrough for assets
     eleventyConfig.addPassthroughCopy("assets");
 

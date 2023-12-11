@@ -16,58 +16,6 @@ img {
     @apply text-white;
 }
 
-/*div.menu li {
-    @apply leading-12;
-}
-
-div.menu ul > li:last-child > a {
-    margin-right: -3px;
-    max-width: calc(100% - 3px);
-}
-
-div.menu ul > li:last-child::after {
-    visibility: hidden;
-    content: "";
-    position: relative;
-    right: -8.8rem;
-    width: 3px;
-    background-color: white;
-    pointer-events: none;
-    border-right: solid 2px white;
-    transition: top 0.5s ease;
-}
-
-@media screen and (max-width: 1280px) {
-    div.menu ul > li:last-child::after {
-        right: -6.8rem;
-    }
-}
-
-div.menu ul > li.active:nth-child(1) ~ li:last-child::after,
-div.menu ul > li.navitem:nth-child(1):hover ~ li:last-child::after {
-    top: -12rem;
-    visibility: visible;
-}
-div.menu ul > li.active:nth-child(2) ~ li:last-child::after,
-div.menu ul > li.navitem:nth-child(2):hover ~ li:last-child::after {
-    top: -9rem;
-    visibility: visible;
-}
-div.menu ul > li.active:nth-child(3) ~ li:last-child::after,
-div.menu ul > li.navitem:nth-child(3):hover ~ li:last-child::after {
-    top: -6rem;
-    visibility: visible;
-}
-div.menu ul > li.active:nth-child(4):last-child::after,
-div.menu ul > li.navitem:nth-child(4):last-child:hover::after {
-    top: -3rem;
-    visibility: visible;
-}
-
-div.menu > * {
-    transition: transform 0.4s ease;
-} */
-
 /* SVGs */
 
 html[class="dark"] svg {
@@ -507,4 +455,17 @@ div.code-toolbar > .toolbar span {
     main .content .additions {
         display: none;
     }
+}
+
+/* Embed svg's beside each other */
+.svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-container img {
+    margin-right: 10px;
+    width: 50%;
+    height: auto;
 }
