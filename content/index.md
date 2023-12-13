@@ -12,8 +12,6 @@ When I am not at work, I am likely reading (usually either non-fiction, or scien
 
 ## Other stuff I'm working on
 
--   [tunnelwiki](https://tunnelwiki.org/)
-    -   An attempt to make a general reference for others in the industry
 -   Streamlit apps:
     -   [AGS data file viewer](https://ags-viewer.streamlit.app/)
     -   [Bouwer-Rice hydraulic conductivity calculator](https://bouwerrice.streamlit.app/)
