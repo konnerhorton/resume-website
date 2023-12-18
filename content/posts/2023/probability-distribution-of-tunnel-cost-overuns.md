@@ -20,9 +20,7 @@ If you don't want to read on, the answer:
 
 I first wanted to extra data from the plot into something more useful, like a `.csv`. So used this [free plot digitizer](https://apps.automeris.io/wpd/) to create scatter data representing the plot. Then recreated the plot to make sure my scatter data was correct:
 
-<div class="svg-container">
-    <img src="/assets/svg/probability-distribution-of-tunnel-cost-overruns-cdf-original.svg" alt="CDF-Original">
-</div>
+<img src="/assets/svg/probability-distribution-of-tunnel-cost-overruns-cdf-original.svg" alt="CDF-Original">
 
 Some key things that stick out:
 
@@ -37,9 +35,7 @@ So, if you see a project budget in a newspaper for a new road or bridge, there i
 
 Most of the distribution functions to pick from don't work very well when $x < 0$, so I updated the x-axis values to be the "Cost Factor": the number you multiply the quoted by to get the final price. I also wanted to fill out the plot so that there were values for 0% and 100%. Here is the updated plot (notice the single scatter points at the extreme left and right of the plot):
 
-<div class="svg-container">
-    <img src="/assets/svg/probability-distribution-of-tunnel-cost-overruns-cdf-costfactor.svg" alt="CDF-Original">
-</div>
+<img src="/assets/svg/probability-distribution-of-tunnel-cost-overruns-cdf-costfactor.svg" alt="CDF-Original">
 
 Now, I can use the python library `scipy` to determine the distribution. I'll follow these steps:
 
@@ -65,9 +61,7 @@ random_variables = [inverse_cdf(u) for u in uniform_random_numbers]
 
 Here's what the data looks like in a histogram:
 
-<div class="svg-container">
-    <img src="/assets/svg/probability-distribution-of-tunnel-cost-overruns-histogram.svg" alt="CDF-Original">
-</div>
+<img src="/assets/svg/probability-distribution-of-tunnel-cost-overruns-histogram.svg" alt="CDF-Original">
 
 Now I use `scipy` to plot various distribtuions to see how they fit:
 
@@ -98,9 +92,7 @@ fig_cdf.update(layout=dict(legend=dict(yanchor="top", y=0.99, xanchor="left", x=
 fig_cdf.show()
 ```
 
-<div class="svg-container">
-    <img src="/assets/svg/probability-distribution-of-tunnel-cost-overruns-cdf-dists.svg" alt="CDF-Original">
-</div>
+<img src="/assets/svg/probability-distribution-of-tunnel-cost-overruns-cdf-dists.svg" alt="CDF-Original">
 
 From a visual check, all but the weibull maximum extreme value distribution seem to be very close. For the remainder of this exercise I will assume the gamma distribution, mostly because it looks like a reasonable fit.
 
@@ -150,9 +142,7 @@ fig = (
 )
 ```
 
-<div class="svg-container">
-    <img src="/assets/svg/probability-distribution-of-tunnel-cost-overruns-confidence.svg" alt="CDF-Original">
-</div>
+<img src="/assets/svg/probability-distribution-of-tunnel-cost-overruns-confidence.svg" alt="CDF-Original">
 
 ## Conclusion
 
