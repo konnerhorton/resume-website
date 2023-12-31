@@ -18,11 +18,11 @@ title: Resume
 
 ### Scarborough Subway Extension
 
-_Project Engineer with Aldea Services, Inc. (offsite), Toronto, Ontario, CA_
+_Senior Project Engineer with Aldea Services, Inc. (offsite), Toronto, Ontario, CA_
 
 December 2022 - Present
 
-Eight kilometers of single bore transit tunnel with four stations, multiple egress buildings, and associated commerical buildings. We were desginers on the progressive design build team under contract to deliver the stations and egress buildings. We were focused on the geotechnical conditions and support of excavation design.
+Eight kilometers of single bore transit tunnel with four stations, multiple egress buildings, and associated commercial buildings. We were designers on the progressive design build team under contract to deliver the stations and egress buildings. We were focused on the geotechnical conditions and support of excavation design.
 
 -   Extracted, parsed, and migrated geotechnical data from pdfs and unstructured excel sheets into a geotechnical database.
 -   Managed QC for over 35,000 geotechnical data records.
@@ -31,7 +31,7 @@ Eight kilometers of single bore transit tunnel with four stations, multiple egre
 
 ### VTA Bart Silicon Valley Phase II
 
-_Project Engineer with Aldea Services, Inc. (offsite), San Jose, California, USA_
+_Senior Project Engineer with Aldea Services, Inc. (offsite), San Jose, California, USA_
 
 November 2023 - Present
 
@@ -49,7 +49,7 @@ Five and a half miles of 18-foot ID CSO tunnel with multiple drop shafts and ove
 
 -   Built the detailed permit schedule to dove-tail into the construction schedule.
 -   Managed sub-designers in design of support of excavation, SEM excavations, and maintenance of traffic.
--   Participated in Technical Colaboration Meetings with the project Owner to develop technical concepts and proprosals.
+-   Participated in Technical Collaboration Meetings with the project Owner to develop technical concepts and proposals.
 
 ### Eagle Mountain - Woodfibre Gas Pipeline
 
@@ -57,11 +57,11 @@ _Project Engineer with Aldea Services, Inc. (offsite), Squamish, British Columbi
 
 April 2022 - July 2022
 
-Nine kilometers of tunnel (approximately half rock and half soil) constructed under an environmentally sensitive area to convey two 24-inch gas pipelines. The project includes the rock and soil tunnels intercepting at the rock / soil interface at depth. We were the lead desginer on the design-build team delivering the project.
+Nine kilometers of tunnel (approximately half rock and half soil) constructed under an environmentally sensitive area to convey two 24-inch gas pipelines. The project includes the rock and soil tunnels intercepting at the rock / soil interface at depth. We were the lead designer on the design-build team delivering the project.
 
 -   Performed slope stability analyses for cut slopes at the tunnel portal.
 -   Designed initial ground support for the starter tunnel (in jointed rock).
--   Developed premiliary grouting layouts (from the TBM) to stabilize the rock / soil interface at the intersection of two tunnels.
+-   Developed preliminary grouting layouts (from the TBM) to stabilize the rock / soil interface at the intersection of two tunnels.
 
 ### Specialty Grouting - Various Projects
 
@@ -111,7 +111,7 @@ Four and a half miles of rock TBM tunnel with 2,000 feet of drill-&-blast tunnel
 
 -   Managed the field engineering for the cast-in-place lining operations.
 -   Coordinated work concurrent on on four projects sites.
--   Developed and executed workplans for various operations including thermal controled concrete, rock-fall drape systems, and large diameter vertical pipe installation.
+-   Developed and executed workplans for various operations including thermal controlled concrete, rock-fall drape systems, and large diameter vertical pipe installation.
 
 ### High Museum Of Art
 
@@ -127,7 +127,7 @@ July 2018 - December 2018
 
 ### Raw Water Supply Program Tunnel (Engineer)
 
-_Staff Geologist with Stantec Consuling, Inc. (onsite), Atlanta, Georgia, USA_
+_Staff Geologist with Stantec Consulting, Inc. (onsite), Atlanta, Georgia, USA_
 
 January 2016 - July 2018
 
@@ -140,11 +140,11 @@ Four and a half miles of rock TBM tunnel with 2,000 feet of drill-&-blast tunnel
 
 ### Volkswagen Plant Expansion
 
-_Staff Engineer with Stantec Consuling, Inc. (onsite), Chattanoga, Tennessee, USA_
+_Staff Engineer with Stantec Consulting, Inc. (onsite), Chattanooga, Tennessee, USA_
 
 January 2015 - January 2016
 
-500,000 sq ft expansion of an automobile manufacturing plant. The project included vibrated aggregate piers with acceptance testing, >1000 cubic yard slab-on-grade concrete placements, precast concrete column errection, and roller-compacted-concrete road construction. We were the Owner's representative providing construction materials and geotechnical quality assurance testing.
+500,000 sq ft expansion of an automobile manufacturing plant. The project included vibrated aggregate piers with acceptance testing, >1000 cubic yard slab-on-grade concrete placements, precast concrete column erection, and roller-compacted-concrete road construction. We were the Owner's representative providing construction materials and geotechnical quality assurance testing.
 
 -   Performed verification tests of ground improvement, including aggregate piers and cement treated road base.
 -   Conducted subsurface geotechnical and investigations prepared geotechnical reports & service proposals.

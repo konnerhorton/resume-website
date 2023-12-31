@@ -11,5 +11,6 @@ pio.templates["local_theme"]["layout"]["font"] = dict(color="black", family="ari
 pio.templates["local_theme"]["layout"]["shapedefaults"] = dict(
     line=dict(width=1, color="black"), opacity=1
 )
+pio.templates["local_theme"]["layout"]["margin"] = dict(t=60, b=20, l=20, r=20)
 
 local_theme = pio.templates["local_theme"]
