@@ -16,19 +16,6 @@ title: Resume
 
 ## Experience
 
-### Scarborough Subway Extension
-
-_Senior Project Engineer with Aldea Services, Inc. (offsite), Toronto, Ontario, CA_
-
-December 2022 - Present
-
-Eight kilometers of single bore transit tunnel with four stations, multiple egress buildings, and associated commercial buildings. We were designers on the progressive design build team under contract to deliver the stations and egress buildings. We were focused on the geotechnical conditions and support of excavation design.
-
--   Extracted, parsed, and migrated geotechnical data from pdfs and unstructured excel sheets into a geotechnical database.
--   Managed QC for over 35,000 geotechnical data records.
--   Performed statistical analysis to determine geotechnical parameters.
--   Developed design documents for support of excavation and dewatering design.
-
 ### VTA Bart Silicon Valley Phase II
 
 _Senior Project Engineer with Aldea Services, Inc. (offsite), San Jose, California, USA_
@@ -38,6 +25,30 @@ November 2023 - Present
 Six miles of transit rail including five miles of single-bore tunnel and three underground stations. We were responsible for developing the schedule and estimate as an independent check on the progressive design build team.
 
 -   Developed a schedule for all tunnel excavation and permanent works, and some enabling and site work.
+-   Developed statistical model to determine the financial value of the risk associated with adjacent asset (buildings, utilities, etc.) damage.
+
+### West Ashley Sewer Tunnel Extension
+
+_Senior Project Engineer with Aldea Services, Inc. (offsite), Charleston, South Carolina, USA_
+
+20,000 feet of eight-foot diameter TBM tunnel in marl and other fine-grained material. We worked for the Construction Manager at Risk for the project to provide qualitative risk assessments and support-of-excavation design.
+
+- Reviewed geotechnical contract documents and design drawings to provide assessments of possible risks and their allocations among stakeholders.
+- Provided recommendations for contract language to manage and allocate risk as desired by the project team.
+- Review instrumentation and monitoring drawings and provided recommendations to reduce cost while maintaining the anticipated risk profile.
+
+### Scarborough Subway Extension
+
+_Senior Project Engineer with Aldea Services, Inc. (offsite), Toronto, Ontario, CA_
+
+December 2022 - Present
+
+Eight kilometers of single bore transit tunnel with four stations, multiple egress buildings, and associated commercial buildings. We were designers on the progressive design build team under contract to deliver the stations and egress buildings. We were focused on the geotechnical conditions and support of excavation design.
+
+-   Extracted, parsed, and migrated geotechnical data from pdfs and unstructured excel sheets into a geotechnical database.
+-   Lead Construction Impact Assessment report development for four large excavations.
+-   Managed the quality control process for geotechnical data from over 400 borings to be stored in a database.
+-   Performed statistical analysis to determine geotechnical parameters.
 
 ### Potomac River Tunnel
 
@@ -48,7 +59,7 @@ July 2022 - February 2023
 Five and a half miles of 18-foot ID CSO tunnel with multiple drop shafts and overflow structures. The project included two TBM's (soil and rock), multiple challenging surface constraints, and a very tight schedule. We were the lead designers on a design-build team to develop the bid and estimate for the project.
 
 -   Built the detailed permit schedule to dove-tail into the construction schedule.
--   Managed sub-designers in design of support of excavation, SEM excavations, and maintenance of traffic.
+-   Managed sub-designers in design of support of excavation, Sequential Excavation Method excavations, and maintenance of traffic.
 -   Participated in Technical Collaboration Meetings with the project Owner to develop technical concepts and proposals.
 
 ### Eagle Mountain - Woodfibre Gas Pipeline
@@ -60,7 +71,7 @@ April 2022 - July 2022
 Nine kilometers of tunnel (approximately half rock and half soil) constructed under an environmentally sensitive area to convey two 24-inch gas pipelines. The project includes the rock and soil tunnels intercepting at the rock / soil interface at depth. We were the lead designer on the design-build team delivering the project.
 
 -   Performed slope stability analyses for cut slopes at the tunnel portal.
--   Designed initial ground support for the starter tunnel (in jointed rock).
+-   Designed initial ground support for the starter tunnel in jointed rock.
 -   Developed preliminary grouting layouts (from the TBM) to stabilize the rock / soil interface at the intersection of two tunnels.
 
 ### Specialty Grouting - Various Projects
