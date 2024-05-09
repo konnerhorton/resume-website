@@ -31,6 +31,8 @@ Six miles of transit rail including five miles of single-bore tunnel and three u
 
 _Senior Project Engineer with Aldea Services, Inc. (offsite), Charleston, South Carolina, USA_
 
+October 2023 - January 2024
+
 20,000 feet of eight-foot diameter TBM tunnel in marl and other fine-grained material. We worked for the Construction Manager at Risk for the project to provide qualitative risk assessments and support-of-excavation design.
 
 - Reviewed geotechnical contract documents and design drawings to provide assessments of possible risks and their allocations among stakeholders.
