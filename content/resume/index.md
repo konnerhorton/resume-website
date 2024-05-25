@@ -22,10 +22,10 @@ _Senior Project Engineer with Aldea Services, Inc. (offsite), San Jose, Californ
 
 November 2023 - Present
 
-Six miles of transit rail including five miles of single-bore tunnel and three underground stations. We were responsible for developing the schedule and estimate as an independent check on the progressive design build team.
+Six miles of transit rail including five miles of single-bore tunnel and three underground stations. We were responsible for developing third-party schedule and estimate checks as well as various risk models.
 
--   Developed a schedule for all tunnel excavation and permanent works, and some enabling and site work.
--   Developed statistical model to determine the financial value of the risk associated with adjacent asset (buildings, utilities, etc.) damage.
+-   Developed statistical model to determine the financial value of the risk associated with damage of adjacent assets (buildings, utilities, etc.).
+-   Developed a conceptual schedule for tunnel excavation, permanent works, and some enabling and site work.
 
 ### West Ashley Sewer Tunnel Extension
 
