@@ -1,6 +1,6 @@
 // Transformer to minify HTML output.
 
-const htmlmin = require("html-minifier");
+const htmlmin = require("html-minifier-terser");
 
 const convert = async (rawContent, outputPath) => {
     const content = rawContent;
