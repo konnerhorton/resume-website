@@ -84,19 +84,6 @@ module.exports = function (eleventyConfig) {
         return new URL(path, siteconfig.url).toString();
     });
 
-    // Extract reading time
-    eleventyConfig.addNunjucksFilter("readingTime", (wordcount) => {
-        let readingTime = Math.ceil(wordcount / 220);
-        if (readingTime === 1) {
-            return readingTime + " minute";
-        }
-        return readingTime + " minutes";
-    });
-
-    // Extract word count
-    eleventyConfig.addNunjucksFilter("formatWords", (wordcount) => {
-        return wordcount.toLocaleString("en");
-    });
 
     // Returns CSS class for home page link
     eleventyConfig.addNunjucksFilter("isHomeLink", function (url, pattern) {
