@@ -138,7 +138,7 @@ module.exports = function (eleventyConfig) {
 
     // Extracts readable date of a date
     eleventyConfig.addNunjucksFilter("readableDate", function (date) {
-        return format(date, "MMM dd, yyyy");
+        return format(date, "yyyy-MM-dd");
     });
 
     // Add custom hash for cache busting
