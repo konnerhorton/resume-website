@@ -4,9 +4,8 @@ date: 2024-05-27
 ---
 
 Civil engineering and construction is notorious for being conservative: it takes us FOREVER to adopt new methods and ideas.
-When the industry started using computers in the 90's, it seems not much thought was given as to who our processes should change in light of these (cheap computers) paradigm shifting tools. They just transferred their paper processes into digital ones.
-Thirty years later, we work in a world where copies of our new paper (pdf's) are free.
-And our typewriters (Microsoft Word) have so few constraints that it's almost impossible to guarantee consistent formatting on anything with more than ten pages.
+When the industry started using computers in the 90's, it seems not much thought was given as to how our processes should change in light these new tools.
+Paper processes were just transferred to a digital space.
 
 This leads to thousands of pdf sheets produced for a simple design that has just as many engineer's hours in formatting and aesthetic quality control than engineering and technical quality control.
 Not only does this distract from doing good work, it also encourages potential entrants in to the industry to avoid it.
