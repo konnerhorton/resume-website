@@ -24,8 +24,7 @@ November 2023 - Present
 
 Six miles of transit rail including five miles of single-bore tunnel and three underground stations. We were responsible for developing third-party schedule and estimate checks as well as various risk models.
 
--   Developed statistical model to determine the financial value of the risk associated with damage of adjacent assets (buildings, utilities, etc.).
--   Developed a conceptual schedule for tunnel excavation, permanent works, and some enabling and site work.
+-   Performed various thrid-party checks on project elements including schedule, estimate, and adjacent structures damage assessments.
 
 ### West Ashley Sewer Tunnel Extension
 
