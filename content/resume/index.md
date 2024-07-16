@@ -152,7 +152,7 @@ Four and a half miles of rock TBM tunnel with 2,000 feet of drill-&-blast tunnel
 
 ### Volkswagen Plant Expansion
 
-_Staff Engineer with Stantec Consulting, Inc. (onsite), Chattanooga, Tennessee, USA_
+_Staff Engineer with S&ME, Inc. (onsite), Chattanooga, Tennessee, USA_
 
 January 2015 - January 2016
 
