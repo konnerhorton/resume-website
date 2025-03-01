@@ -12,15 +12,27 @@ title: Resume
 ## Licenses
 
 **Licensed Professional Engineer** in Georgia, license number PE051347  
+**Licensed Professinoal Geologist** in Georgia, license number PG002469
 **Licensed General Contractor** in Georgia, license number GCLT-QA000699
 
 ## Experience
+
+### Frederick Douglass Tunnel
+
+_Risk Aanalyst with Aldea Services, Inc. (offiste), Baltimore, Maryland, USA_
+
+May 2024 - Present
+
+Two miles of twin-bore transit (Amtrak) tunnel with 11 cross-passages. I am the risk analyst for the various CMAR construction work packages.
+
+- Facilitate risk workshops between stakeholders.
+- Run risk analyses on costs and schedule to determine required contingency amounts.
 
 ### VTA Bart Silicon Valley Phase II
 
 _Senior Project Engineer with Aldea Services, Inc. (offsite), San Jose, California, USA_
 
-November 2023 - Present
+November 2023 - August 2024
 
 Six miles of transit rail including five miles of single-bore tunnel and three underground stations. We were responsible for developing third-party schedule and estimate checks as well as various risk models.
 
