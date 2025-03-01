@@ -12,7 +12,7 @@ title: Resume
 ## Licenses
 
 **Licensed Professional Engineer** in Georgia, license number PE051347  
-**Licensed Professinoal Geologist** in Georgia, license number PG002469
+**Licensed Professinoal Geologist** in Georgia, license number PG002469  
 **Licensed General Contractor** in Georgia, license number GCLT-QA000699
 
 ## Experience

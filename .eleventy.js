@@ -23,7 +23,7 @@ module.exports = function (eleventyConfig) {
             xhtmlOut: true,
             linkify: true,
             typographer: true,
-        }).use(markdownItAnchor).use(markdownItReplaceLink, {replaceLink: function(link) {return link.replace(/^([^/][^:]*)\.md(#[^#]+)?$/, "../$1/$2")}})
+        }).use(markdownItAnchor).use(markdownItReplaceLink, {replaceLink: function(link) {return link.replace(/\.md(#[^#]+)?$/, "$1")}})
     );
     // Plugin for syntaxHighlight
     eleventyConfig.addPlugin(syntaxHighlight);
